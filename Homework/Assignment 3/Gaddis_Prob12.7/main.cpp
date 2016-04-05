@@ -46,7 +46,7 @@ int main()
     cout << "Enter a file name you would like to save the revised"
                    "version " << endl;
     cin >> outputName;
-    outFile.open(outputName);
+    outFile.open(outputName.c_str());
     
     
     //make sure file opens
