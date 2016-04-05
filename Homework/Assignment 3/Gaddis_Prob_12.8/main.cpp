@@ -1,4 +1,5 @@
 /*
+ * 12.8
  * Write a function named arrayToFile. The function should accept three 
  * arguments: the name of a file, a pointer to an int array, and the size 
  * of the array. The function should open the specified file in binary mode, 
@@ -24,7 +25,7 @@
  //user library 
 #include <iostream>
 #include<fstream>
-
+#include <ctime>
 using namespace std;
 
 // global constants
@@ -36,7 +37,8 @@ void fillArray(int *a, int n);
 
 //Execution begins here
 int main() {
-
+    unsigned seed = time(0);
+    srand(seed);
     int size= 50;
     int array[size];
     fstream fileName;
@@ -65,6 +67,7 @@ void arrayToFile(fstream &fileName, int * array, int size){
     
 
     fileName.open("Gaddis_12.8.txt", ios::out | ios::binary);
+    // fileName.open("data.txt", ios::out | ios::binary);
     
     if(fileName){
       cout << "file opened"<< endl;
@@ -74,6 +77,7 @@ void arrayToFile(fstream &fileName, int * array, int size){
     else
         cout << "failed to open file" << endl;
     
+    // fileName<<"test";
     fileName.close();
     
 }
