@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=GNU-MacOSX
 CND_ARTIFACT_DIR_Debug=dist/Debug/GNU-MacOSX
-CND_ARTIFACT_NAME_Debug=gaddis_prob12.7
-CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-MacOSX/gaddis_prob12.7
+CND_ARTIFACT_NAME_Debug=gaddis_prob13.1
+CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-MacOSX/gaddis_prob13.1
 CND_PACKAGE_DIR_Debug=dist/Debug/GNU-MacOSX/package
-CND_PACKAGE_NAME_Debug=gaddisprob12.7.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/GNU-MacOSX/package/gaddisprob12.7.tar
+CND_PACKAGE_NAME_Debug=gaddisprob13.1.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/GNU-MacOSX/package/gaddisprob13.1.tar
 # Release configuration
 CND_PLATFORM_Release=GNU-MacOSX
 CND_ARTIFACT_DIR_Release=dist/Release/GNU-MacOSX
-CND_ARTIFACT_NAME_Release=gaddis_prob12.7
-CND_ARTIFACT_PATH_Release=dist/Release/GNU-MacOSX/gaddis_prob12.7
+CND_ARTIFACT_NAME_Release=gaddis_prob13.1
+CND_ARTIFACT_PATH_Release=dist/Release/GNU-MacOSX/gaddis_prob13.1
 CND_PACKAGE_DIR_Release=dist/Release/GNU-MacOSX/package
-CND_PACKAGE_NAME_Release=gaddisprob12.7.tar
-CND_PACKAGE_PATH_Release=dist/Release/GNU-MacOSX/package/gaddisprob12.7.tar
+CND_PACKAGE_NAME_Release=gaddisprob13.1.tar
+CND_PACKAGE_PATH_Release=dist/Release/GNU-MacOSX/package/gaddisprob13.1.tar
 #
 # include compiler specific variables
 #

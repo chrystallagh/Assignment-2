@@ -11,7 +11,7 @@
  * Write a complete program that demonstrates these functions by using the 
  * arrayToFile function to write an array to a file, and then using the 
  * fileToArray function to read the data from the same file. After the data
- *  are read from the file into the array, display the array’s contents on 
+ * are read from the file into the array, display the array’s contents on 
  * the screen.
  */
 
@@ -67,7 +67,6 @@ void arrayToFile(fstream &fileName, int * array, int size){
     
 
     fileName.open("Gaddis_12.8.txt", ios::out | ios::binary);
-    // fileName.open("data.txt", ios::out | ios::binary);
     
     if(fileName){
       cout << "file opened"<< endl;
