@@ -47,7 +47,7 @@ int main(int argv,char *argc[]){
         case 6:    problem6();break;
         default:   def(inN);}
     }while(inN>=1&&inN<=6);
-    return 0;//If midterm not perfect, return something other than 1
+    return 0;
 }
 
 void Menu(){
